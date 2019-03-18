@@ -1,0 +1,2 @@
+Design the netcode for the demo - Monday by midnight (4-6 hours)
+Integrate the netcode into the demo - Tuesday by midnight (4-6 hours)
