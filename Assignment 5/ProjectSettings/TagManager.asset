@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Door
+  - BlueTile
+  - RedPlayer
+  - RedTile
+  - BluePlayer
   layers:
   - Default
   - TransparentFX
