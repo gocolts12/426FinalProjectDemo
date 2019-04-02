@@ -24,7 +24,6 @@ public class TileController : MonoBehaviour
 
 
 
-
     private void OnTriggerEnter(Collider other)
     {
         if (this.tag.Contains("BlueTile"))
