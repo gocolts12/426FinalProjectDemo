@@ -1,0 +1,4 @@
+CS428 Assignment 8 - AI & Project Checkpoint
+Michael Lederer, Tim Czepizak, Conrad Markiewicz 
+
+For this AI demo, we implemented a number of mechanics. The first thing added were the lasers that move around the level, causing the players to have to avoid them to survive. When the player collides with a laser, they die and are respawned at the start. Additionally, stepping on a bad platform now results in an explosion. Additionally, there is a spotlight that provides light in a now darkened level room. Player 1’s cat’s actions, the laser’s movement, and Player 2’s cat following the player are 3 instances of AI additions in the level. For the implementations of mecanim, one cat uses a rigged character model, and the other cat uses a running animation when following the player. These mechanics fit the theme of the game very well. The darkness and hazards like the laser add to the feeling of danger and fear that go along with waking up in an underground dungeon. 
