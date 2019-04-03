@@ -9,6 +9,7 @@ TagManager:
   - RedPlayer
   - RedTile
   - BluePlayer
+  - Cat
   layers:
   - Default
   - TransparentFX
