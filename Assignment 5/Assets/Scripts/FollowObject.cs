@@ -15,6 +15,7 @@ public class FollowObject : MonoBehaviour
     public string priority2;
     public string priority3;
     public string priority4;
+    private Animator animator;
 
 
 
@@ -23,8 +24,8 @@ public class FollowObject : MonoBehaviour
     {
         rB = GetComponent<Rigidbody>();
         T = GetComponent<Transform>();
-       
-       
+        animator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -38,6 +39,8 @@ public class FollowObject : MonoBehaviour
        // GameObject[] d = GameObject.FindGameObjectsWithTag(priority4);
         if (a.Length > 0)
         {
+            animator.SetTrigger("Run");
+
             close = closestModel(a);
         }
         //else if (b.Length > 0)
@@ -100,6 +103,7 @@ public class FollowObject : MonoBehaviour
        // Debug.Log(rB.velocity.magnitude);
         if (rB.velocity.magnitude < 7)
         {
+            
             rB.velocity += this.transform.forward * speed * Time.deltaTime;
         }
             //T.forward += this.transform.forward * Time.deltaTime * speed;
