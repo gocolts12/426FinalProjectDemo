@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Barrier.cs" />
     <Compile Include="Assets\Scripts\CatRun.cs" />
     <Compile Include="Assets\Scripts\FollowObject.cs" />
+    <Compile Include="Assets\Scripts\LaserController.cs" />
     <Compile Include="Assets\Scripts\Player1Controller.cs" />
     <Compile Include="Assets\Scripts\Player2Controller.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
