@@ -97,7 +97,7 @@ public class FollowObject : MonoBehaviour
             }
 
         }
-        Debug.Log(rB.velocity.magnitude);
+       // Debug.Log(rB.velocity.magnitude);
         if (rB.velocity.magnitude < 7)
         {
             rB.velocity += this.transform.forward * speed * Time.deltaTime;
