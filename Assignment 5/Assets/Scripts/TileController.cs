@@ -6,6 +6,7 @@ public class TileController : MonoBehaviour
 {
 
 
+
     public GameObject spawnPoint;
 
     private Vector3 TSpawnPoint;
@@ -29,8 +30,7 @@ public class TileController : MonoBehaviour
         {
             if (other.gameObject.tag.Contains("RedPlayer"))
             {
-                //Debug.Log("This Should Teleport");
-               
+                Debug.Log("This Should Teleport");
                 other.gameObject.transform.position = TSpawnPoint;
             }
             else

@@ -64,13 +64,17 @@
     <Compile Include="Assets\CamScript1.cs" />
     <Compile Include="Assets\CamScript2.cs" />
     <Compile Include="Assets\Scripts\Barrier.cs" />
+    <Compile Include="Assets\Scripts\CatAIScript.cs" />
     <Compile Include="Assets\Scripts\CatRun.cs" />
     <Compile Include="Assets\Scripts\FollowObject.cs" />
+    <Compile Include="Assets\Scripts\FSM.cs" />
     <Compile Include="Assets\Scripts\LaserController.cs" />
     <Compile Include="Assets\Scripts\Player1Controller.cs" />
     <Compile Include="Assets\Scripts\Player2Controller.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TileController.cs" />
+    <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\cu_cat\Shaders\CuCatShader.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Tim_C/OneDrive/Documents/GitHub/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
