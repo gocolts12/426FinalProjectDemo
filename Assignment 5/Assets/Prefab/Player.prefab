@@ -113,6 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playernum: 0
   speed: 25
+  jumpforce: 1
   rotationspeed: 90
   playerNumber: []
   starts: []
