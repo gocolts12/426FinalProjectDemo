@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Player1Controller.cs" />
     <Compile Include="Assets\Scripts\Player2Controller.cs" />
     <Compile Include="Assets\Scripts\PlayerController2.cs" />
+    <Compile Include="Assets\Scripts\ScoreKeeper.cs" />
     <Compile Include="Assets\Scripts\TileController.cs" />
     <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\NetworkLobby_Third-PartyNotice.txt" />
@@ -89,19 +90,19 @@
     <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Fonts\OpenSans\FontLicense.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -305,19 +306,19 @@
       <HintPath>F:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>F:/422LayneApp/426FinalProjectDemo/Assignment 5/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Tim_C/Desktop/426FinalProjectDemo-Conrad-Tim/Assignment 5/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>F:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

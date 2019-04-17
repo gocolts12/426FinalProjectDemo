@@ -95,7 +95,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 448}
   m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 114
+  controlID: 127
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 42
+  controlID: 128
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,7 +330,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a0d3ffffc2d3ffff9adeffff00e1ffff0ce1ffff42f1ffffbefbffffc02f0000
+      m_ExpandedIDs: aaadffffccadfffff8aeffff5eb1ffff7ab1ffff16cdffffaccdffffcecdffff92d8ffffd0daffffdcdaffffb4dbffff7268000072690000ee6a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -427,20 +427,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Sounds
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Sounds
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: F:\422LayneApp\426FinalProjectDemo\Assignment 5
+  m_LastProjectPath: C:\Users\Tim_C\Desktop\426FinalProjectDemo-Conrad-Tim\Assignment
+    5
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2260000
-    m_LastClickedID: 9890
-    m_ExpandedIDs: 00000000a22600001427000088270000da270000222800005828000076280000022900002c290000e4290000282a00002e2a0000a82a00006c2f00006e2f0000702f0000722f000000ca9a3b
+    m_SelectedIDs: 2c6b0000
+    m_LastClickedID: 27436
+    m_ExpandedIDs: 000000006c5d0000c25d0000085e0000325e0000625e00008a5e0000945e0000e85e0000045f00006a5f0000925f0000965f0000e65f0000ba600000bc600000be600000c060000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,7 +469,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a22600001427000088270000da270000222800005828000076280000022900002c290000e4290000282a00002e2a0000a82a00006c2f00006e2f0000702f0000722f0000
+    m_ExpandedIDs: 000000006c5d0000c25d0000085e0000325e0000625e00008a5e0000945e0000e85e0000045f00006a5f0000925f0000965f0000e65f0000ba600000bc600000be600000c0600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
