@@ -16,6 +16,7 @@ public class PlayerController2 : NetworkBehaviour
     public Text[] playerNumber;
     private bool onGround;
     public NetworkStartPosition[] starts;
+    public AudioSource jumpSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +53,7 @@ public class PlayerController2 : NetworkBehaviour
         if (Input.GetKey(KeyCode.Space) && onGround == true)
         {
             Debug.Log(onGround);
+            jumpSound.Play();
             rb.AddForce(Vector3.up * 15.0f, ForceMode.Impulse);
             onGround = false;
         }
