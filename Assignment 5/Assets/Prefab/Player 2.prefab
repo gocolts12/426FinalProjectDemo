@@ -118,6 +118,7 @@ MonoBehaviour:
   turnspeed: 2
   playerNumber: []
   starts: []
+  jump: {fileID: 5648516968167194952, guid: dc976372d8cccf6459fad89f421c6974, type: 3}
 --- !u!1 &746393498193740005
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ public class PlayerController2 : NetworkBehaviour
     public Text[] playerNumber;
     private bool onGround;
     public NetworkStartPosition[] starts;
-    public AudioSource jumpSound;
+    public AudioSource jump;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,10 +52,14 @@ public class PlayerController2 : NetworkBehaviour
 
         if (Input.GetKey(KeyCode.Space) && onGround == true)
         {
+            
+           Instantiate(jump);
+
+            jump.Play();
             Debug.Log(onGround);
-            jumpSound.Play();
             rb.AddForce(Vector3.up * 15.0f, ForceMode.Impulse);
             onGround = false;
+            
         }
 
         float h = turnspeed * Input.GetAxis("Mouse X");
