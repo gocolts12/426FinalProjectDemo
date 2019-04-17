@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\CamScript1.cs" />
     <Compile Include="Assets\CamScript2.cs" />
+    <Compile Include="Assets\levelmana.cs" />
     <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
     <Compile Include="Assets\Lobby\Scripts\EventSystemChecker.cs" />
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
