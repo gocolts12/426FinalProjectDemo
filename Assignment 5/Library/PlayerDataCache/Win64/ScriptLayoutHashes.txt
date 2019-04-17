@@ -1,7 +1,8 @@
 Win64
 PlayerPath?
-C:/Users/Tim_C/Desktop/Assignment 7/Class Demo.exe
+C:/Users/Tim_C/Desktop/TestingLobby2/Class Demo.exe
 SceneListBegin?
+Assets/Scenes/Lobby.unity
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -85,6 +86,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+cb4f69e6b3a87c519d224d4ebe29a5be Assembly-CSharp.dll:FSM_AI.CatAIScript
 ba214557c0a2f84cad1d8dac14876fc4 Assembly-CSharp.dll:.Player2Controller
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -118,7 +120,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CamScript1
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
-34c1bf5b38c991840360916f0a17c29d Assembly-CSharp.dll:.PlayerController
+d727e6bb54f1a9434eb79c19a609b99d Assembly-CSharp.dll:.PlayerController2
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
@@ -138,6 +140,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+6600ed8306c18049279055ad5860451c Assembly-CSharp.dll:.FSM
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -164,3 +167,14 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+44a4795b44b760564c025db6f856c68d Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyMainMenu
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Prototype.NetworkLobby.EventSystemChecker
+0ecb1b54407a49223f88b3c73a700fba Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyInfoPanel
+5c7ea66ebebc014502b7cdd161e34de8 Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyServerEntry
+eb1f86cca3c47aa1287a5022ededdc3a Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyCountdownPanel
+f3af45f2e4d34c4af609fd3cab9b8373 Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyManager
+e2c966537dbfba40d6b59397e5f3e8ec Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyTopPanel
+3b313ae24a565902bc35492dbb2c3206 Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyPlayer
+74d4952024541204ec783ef3df8b4d2a Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyPlayerList
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Prototype.NetworkLobby.DraggablePanel
+ec47a49478d99d9bebb10dcf002ea058 Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyServerList

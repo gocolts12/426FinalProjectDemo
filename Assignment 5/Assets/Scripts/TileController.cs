@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TileController : MonoBehaviour
 {
     public GameObject spawnPoint;
-    public ScoreKeeper ui;
+    //public ScoreKeeper ui;
     private Vector3 TSpawnPoint;
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,7 @@ public class TileController : MonoBehaviour
             {
                 Debug.Log("This Should Teleport");
                 other.gameObject.transform.position = TSpawnPoint;
-                ui.P1Explode();
+               // ui.P1Explode();
             }
             else
             {
@@ -43,7 +44,7 @@ public class TileController : MonoBehaviour
             if (other.gameObject.tag.Contains("BluePlayer"))
             {
                 other.gameObject.transform.position = TSpawnPoint;
-                ui.P2Explode();
+               // ui.P2Explode();
             }
             else
             {
