@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Tim_C/Desktop/TestingLobby2/Class Demo.exe
+C:/Users/Conrad/426FinalProjectDemo - Build/Class Demo.exe
 SceneListBegin?
 Assets/Scenes/Main Menu.unity
 Assets/Scenes/Lobby.unity
