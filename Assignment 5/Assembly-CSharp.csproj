@@ -89,6 +89,7 @@
     <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Fonts\OpenSans\FontLicense.txt" />
+    <None Include="Assets\StoneWalls\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Michael/Google Drive/School/Senior/Spring/VGDesign/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
