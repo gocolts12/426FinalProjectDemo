@@ -224,6 +224,7 @@ GameObject:
   - component: {fileID: 30801834}
   - component: {fileID: 30801833}
   - component: {fileID: 30801832}
+  - component: {fileID: 30801836}
   m_Layer: 0
   m_Name: P1 Floor
   m_TagString: Untagged
@@ -304,6 +305,20 @@ Transform:
   m_Father: {fileID: 773190230}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30801836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30801831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff05590cc4644054baffd41aab599238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
+  ui: {fileID: 0}
 --- !u!4 &33364951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3521973348900729527, guid: 86248efe97296d648820d6d2d4632e67,
@@ -10512,6 +10527,7 @@ GameObject:
   - component: {fileID: 1722441801}
   - component: {fileID: 1722441800}
   - component: {fileID: 1722441799}
+  - component: {fileID: 1722441803}
   m_Layer: 0
   m_Name: P2 Floor
   m_TagString: Untagged
@@ -10592,6 +10608,20 @@ Transform:
   m_Father: {fileID: 476427104}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722441803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722441798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff05590cc4644054baffd41aab599238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
+  ui: {fileID: 0}
 --- !u!1001 &1730072755
 PrefabInstance:
   m_ObjectHideFlags: 0
