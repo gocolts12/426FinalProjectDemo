@@ -10,6 +10,7 @@ TagManager:
   - RedTile
   - BluePlayer
   - Cat
+  - Eyes
   layers:
   - Default
   - TransparentFX
