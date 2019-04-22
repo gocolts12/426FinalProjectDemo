@@ -32,6 +32,7 @@ public class PlayerController2 : NetworkBehaviour
             Camera.main.gameObject.transform.parent = el;
         }
         onGround = true;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     
