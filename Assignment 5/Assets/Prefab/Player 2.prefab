@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 751481641}
   - component: {fileID: 630211782208356015}
   - component: {fileID: 3409534595096944821}
+  - component: {fileID: 7541416663698940701}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: RedPlayer
@@ -119,6 +120,20 @@ MonoBehaviour:
   playerNumber: []
   starts: []
   jump: {fileID: 5648516968167194952, guid: dc976372d8cccf6459fad89f421c6974, type: 3}
+--- !u!114 &7541416663698940701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751481639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c63300dea32b7b439c2ac2ec2eb69f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishedPrefab: {fileID: 3383206359276603828, guid: 927b5b84599a204488976e3fea9d8955,
+    type: 3}
 --- !u!1 &746393498193740005
 GameObject:
   m_ObjectHideFlags: 0

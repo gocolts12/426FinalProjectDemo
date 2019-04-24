@@ -2524,7 +2524,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 51a08a5b0f98e5f47a184a1c39afe107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3677,7 +3677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 588876384}
   m_Layer: 0
-  m_Name: Player2Start (1)
+  m_Name: Player2End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3914,7 +3914,7 @@ PrefabInstance:
     - target: {fileID: 920149116986018038, guid: 986130c881b46274688ca2e58c46cffa,
         type: 3}
       propertyPath: m_TagString
-      value: Door
+      value: BlueTile
       objectReference: {fileID: 0}
     - target: {fileID: 8401992172688702138, guid: 986130c881b46274688ca2e58c46cffa,
         type: 3}
@@ -3975,6 +3975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: BlueTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384690570834494840, guid: 986130c881b46274688ca2e58c46cffa,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 986130c881b46274688ca2e58c46cffa, type: 3}
@@ -7220,6 +7225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203545234}
+  - component: {fileID: 1203545232}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -7227,6 +7233,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1203545232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203545231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd6305093e9b9a42ad8c698a61dc5a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1203545234
 Transform:
   m_ObjectHideFlags: 0
@@ -8627,6 +8645,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5051925643407151851, guid: 986130c881b46274688ca2e58c46cffa,
+        type: 3}
+      propertyPath: m_TagString
+      value: BlueTile
+      objectReference: {fileID: 0}
     - target: {fileID: 3260995177362706146, guid: 986130c881b46274688ca2e58c46cffa,
         type: 3}
       propertyPath: m_Intensity
@@ -8647,10 +8670,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5051925643407151851, guid: 986130c881b46274688ca2e58c46cffa,
+    - target: {fileID: 4384690570834494840, guid: 986130c881b46274688ca2e58c46cffa,
         type: 3}
-      propertyPath: m_TagString
-      value: BlueTile
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3260995177362706146, guid: 986130c881b46274688ca2e58c46cffa, type: 3}
@@ -9243,7 +9266,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 51a08a5b0f98e5f47a184a1c39afe107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9909,9 +9932,12 @@ GameObject:
   - component: {fileID: 1539179710}
   - component: {fileID: 1539179709}
   - component: {fileID: 1539179708}
+  - component: {fileID: 1539179711}
+  - component: {fileID: 1539179713}
+  - component: {fileID: 1539179712}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: FinishLine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9960,7 +9986,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 51a08a5b0f98e5f47a184a1c39afe107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9988,6 +10014,66 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539179706}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1539179711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539179706}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 4.5685782, z: 1}
+  m_Center: {x: -0.00000012906982, y: 1.7842886, z: -0.00000023841858}
+--- !u!114 &1539179712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539179706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &1539179713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539179706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c63300dea32b7b439c2ac2ec2eb69f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishedPrefab: {fileID: 3383206359276603828, guid: 927b5b84599a204488976e3fea9d8955,
+    type: 3}
 --- !u!4 &1546002059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3521973348900729527, guid: 86248efe97296d648820d6d2d4632e67,
@@ -12200,9 +12286,12 @@ GameObject:
   - component: {fileID: 1926438290}
   - component: {fileID: 1926438289}
   - component: {fileID: 1926438288}
+  - component: {fileID: 1926438291}
+  - component: {fileID: 1926438293}
+  - component: {fileID: 1926438292}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: FinishLine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12251,7 +12340,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 51a08a5b0f98e5f47a184a1c39afe107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12279,6 +12368,66 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926438286}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1926438291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926438286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 8.845076, z: 1}
+  m_Center: {x: 0, y: 2.5418887, z: 0}
+--- !u!114 &1926438292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926438286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &1926438293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926438286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c63300dea32b7b439c2ac2ec2eb69f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishedPrefab: {fileID: 3383206359276603828, guid: 927b5b84599a204488976e3fea9d8955,
+    type: 3}
 --- !u!1 &1931567077
 GameObject:
   m_ObjectHideFlags: 0

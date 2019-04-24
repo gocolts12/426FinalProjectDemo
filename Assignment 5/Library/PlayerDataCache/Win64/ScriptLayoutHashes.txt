@@ -1,10 +1,11 @@
 Win64
 PlayerPath?
-C:/Users/Tim_C/Desktop/TestingLobby2/Class Demo.exe
+C:/Users/Tim_C/Desktop/Beta/Class Demo.exe
 SceneListBegin?
 Assets/Scenes/Main Menu.unity
 Assets/Scenes/Lobby.unity
 Assets/Scenes/SampleScene.unity
+Assets/Scenes/Credits Scene.unity
 SceneListEnd?
 44a4795b44b760564c025db6f856c68d Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyMainMenu
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -150,6 +151,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 6600ed8306c18049279055ad5860451c Assembly-CSharp.dll:.FSM
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.scrollScript
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 db912834b55fd710f7a7839f5534c1f2 Assembly-CSharp.dll:.ScoreKeeper
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
@@ -178,6 +180,8 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Prototype.NetworkLobby.DraggablePanel
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.levelmana
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Levelmana
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 ec47a49478d99d9bebb10dcf002ea058 Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyServerList
+3606afb38bbbb0614cdaa5222e4e7a9e Assembly-CSharp.dll:.FinishScript
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FinishedServer
