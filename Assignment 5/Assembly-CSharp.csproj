@@ -88,6 +88,7 @@
     <Compile Include="Assets\scrollScript.cs" />
     <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\NetworkLobby_Third-PartyNotice.txt" />
+    <None Include="Assets\Shaders\Invert.shader" />
     <None Include="Assets\Lobby\Documentation.txt" />
     <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />

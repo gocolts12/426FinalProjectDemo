@@ -8,6 +8,8 @@ public class PlayerController2 : NetworkBehaviour
 {
     Rigidbody rb;
     Transform t;
+    public GameObject EyeLevel;
+    Transform el;
     public int playernum;
     public float speed = 25.0f;
     public float jumpforce = 200.0f;
@@ -22,13 +24,15 @@ public class PlayerController2 : NetworkBehaviour
     {
         rb = GetComponent<Rigidbody>();
         t = GetComponent<Transform>();
+        el = EyeLevel.GetComponent<Transform>();
         if (isLocalPlayer)
         {
-            Camera.main.gameObject.transform.position = t.position;
-            Camera.main.gameObject.transform.rotation = t.rotation;
-            Camera.main.gameObject.transform.parent = t;
+            Camera.main.gameObject.transform.position = el.position;
+            Camera.main.gameObject.transform.rotation = el.rotation;
+            Camera.main.gameObject.transform.parent = el;
         }
         onGround = true;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     
