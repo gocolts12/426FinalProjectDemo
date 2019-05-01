@@ -63,6 +63,8 @@
   <ItemGroup>
     <Compile Include="Assets\CamScript1.cs" />
     <Compile Include="Assets\CamScript2.cs" />
+    <Compile Include="Assets\Knight\scripts\rotator.cs" />
+    <Compile Include="Assets\levelmana.cs" />
     <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
     <Compile Include="Assets\Lobby\Scripts\EventSystemChecker.cs" />
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
@@ -82,8 +84,10 @@
     <Compile Include="Assets\Scripts\Levelmana.cs" />
     <Compile Include="Assets\Scripts\Player1Controller.cs" />
     <Compile Include="Assets\Scripts\Player2Controller.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerController2.cs" />
     <Compile Include="Assets\Scripts\ScoreKeeper.cs" />
+    <Compile Include="Assets\Scripts\Sphere.cs" />
     <Compile Include="Assets\Scripts\TileController.cs" />
     <Compile Include="Assets\scrollScript.cs" />
     <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
@@ -93,6 +97,7 @@
     <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\MeowCats_Amesyo\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Fonts\OpenSans\FontLicense.txt" />
+    <None Include="Assets\Knight\shaders\doublesidedshader.shader" />
     <None Include="Assets\StoneWalls\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Tim_C/OneDrive/Documents/GitHub/426FinalProjectDemo/Assignment 5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

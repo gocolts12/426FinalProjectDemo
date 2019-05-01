@@ -5,7 +5,8 @@ using UnityEngine.Networking;
 
 public class FinishScript : NetworkBehaviour
 {
-
+    public GameObject explodeP1;
+    public GameObject explodeP2;
 
     public GameObject finishedPrefab;
     private int popped = 0;
@@ -30,6 +31,24 @@ public class FinishScript : NetworkBehaviour
         
 
     }
+    [Command]
+    void CmdDoEndP1()
+    {
+
+        GameObject finished = (GameObject)Instantiate(explodeP1);
+
+        NetworkServer.Spawn(finished);
+
+
+    }
+    [Command]
+    void CmdDoEndP2()
+    {
+
+        GameObject finished = (GameObject)Instantiate(explodeP2);
+
+        NetworkServer.Spawn(finished);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -46,6 +65,16 @@ public class FinishScript : NetworkBehaviour
             }
             
             
+        }
+        else if (other.gameObject.tag.Contains("player1"))
+        {
+            Debug.Log("Do Stuff");
+            CmdDoEndP1();
+        }
+        else if (other.gameObject.tag.Contains("player2"))
+        {
+            Debug.Log("Do Stuff");
+            CmdDoEndP2();
         }
     }
     private void OnTriggerExit(Collider other)

@@ -637,5 +637,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1792783316430463724, guid: 5a0238345eee68549a13f8b5006aea37,
+        type: 3}
+      propertyPath: m_PlayScene
+      value: Level 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 805424620808787236, guid: 5a0238345eee68549a13f8b5006aea37,
+        type: 3}
+      propertyPath: m_Text
+      value: 'When a brother and sister awaken in an underground dungeon, many questions
+        arise, but none are answered. Where are they? How did they get there? Where
+        do they go? The only answer provided is this: If they hope to survive this
+        ordeal, they will have to work together.
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a0238345eee68549a13f8b5006aea37, type: 3}

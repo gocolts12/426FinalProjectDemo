@@ -8,6 +8,7 @@ public class TileController : MonoBehaviour
     public GameObject spawnPoint;
     public ScoreKeeper ui;
     private Vector3 TSpawnPoint;
+    public GameObject childtag;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +30,18 @@ public class TileController : MonoBehaviour
         {
             if (other.gameObject.tag.Contains("RedPlayer"))
             {
-                Debug.Log("This Should Teleport");
+                
                 other.gameObject.transform.position = TSpawnPoint;
-                ui.P1Explode();
+                if (childtag.tag.Contains("player1")){
+                  //  Debug.Log("Spawn a thing");
+                    ui.P1Explode();
+                }
+                else
+                {
+                   // Debug.Log("Spawn a thing");
+                    ui.P2Explode();
+                }
+                
             }
             else
             {

@@ -60,7 +60,7 @@ public class PlayerController2 : NetworkBehaviour
            Instantiate(jump);
 
             jump.Play();
-            Debug.Log(onGround);
+            
             rb.AddForce(Vector3.up * 15.0f, ForceMode.Impulse);
             onGround = false;
             

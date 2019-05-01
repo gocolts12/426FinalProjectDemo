@@ -12,6 +12,10 @@ TagManager:
   - Cat
   - FinishLine
   - Finished
+  - explodeP1
+  - explodeP2
+  - player1
+  - player2
   layers:
   - Default
   - TransparentFX
